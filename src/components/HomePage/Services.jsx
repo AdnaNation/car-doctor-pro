@@ -14,7 +14,7 @@ const Services = () => {
           believable.{" "}
         </p>
       </div>
-      <div className="container mx-auto mt-12 grid grid-cols-1 lg:grid-cols-3 gap-6">
+      <div className="container ml-5 md:ml-0 mx-auto mt-12 grid grid-cols-1 lg:grid-cols-3 gap-6">
         {services?.length > 0 &&
           services?.map((service) => (
             <ServiceCard service={service} key={service._id} />
